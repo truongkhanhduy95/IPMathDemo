@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2ecc71</color>
+    <color name="colorPrimaryDark">#2c3e50</color>
+    <color name="colorAccent">#2980b9</color>
+
+    <color name="backGround">#151c28</color>
+    <color name="conTent">#2d3b4d</color>
+    <color name="reSult">#e74c3c</color>
+    <color name="inPut">#2ecc71</color>
+    <color name="buton">#34495e</color>
+
+    <color name="title_bar_ipv6">#d35400</color>
+    <color name="ipv6_theme">#f49141</color>
+
+    <color name="title_bar_ipinfo">#16a085</color>
+    <color name="ipinfo_theme">#45e0c2</color>
+
+    <color name="title_bar_subnet">#8e44ad</color>
+    <color name="subnet_theme">#9b59b6</color>
+
+    <color name="title_bar_camera">#2980b9</color>
+    <color name="camera_theme">#4799f4</color>
+</resources>

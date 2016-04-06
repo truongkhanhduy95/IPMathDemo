@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.truongkhanhduy.ipmathdemo.CameraActivity"
+    android:background="@color/backGround">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/conTent"
+        android:layout_marginBottom="20px" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.12"
+            android:background="@color/inPut">
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Input"
+                android:id="@+id/textView31"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10px"
+                android:layout_margin="20px" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnReset"
+                android:src="@drawable/reset"
+                android:scaleType="center" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView32"
+            android:height="3dp"
+            android:background="#185640" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imgPic"
+                android:background="@drawable/border_imgv"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="20px"
+                android:layout_marginRight="20px" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Galery"
+                android:id="@+id/btnGalery"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:background="@color/buton"
+                android:layout_marginRight="10px"
+                android:layout_marginLeft="60px" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:id="@+id/btnCamera"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:background="@color/buton"
+                android:layout_marginBottom="20px"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="60px" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/conTent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/reSult"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="20px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Result"
+                android:id="@+id/textView34"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10px"
+                android:layout_margin="20px" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView35"
+            android:background="#7c1818"
+            android:height="6px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtResult"
+            android:background="@drawable/bg_edittext"
+            android:textColor="#17f24e"
+            android:layout_margin="20px"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="70px"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert"
+            android:id="@+id/btnConvert"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:background="@color/buton"
+            android:layout_marginBottom="20px"
+            android:layout_marginTop="20px" />
+
+    </LinearLayout>
+
+</LinearLayout>

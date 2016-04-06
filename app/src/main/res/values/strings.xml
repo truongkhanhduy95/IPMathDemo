@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IPMath</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="white">#ffffffff</color>
+    <dimen name="text_size_middle">14sp</dimen>
+    <color name="green_6a">#ff2c5aa9</color>
+    <color name="title_bg">#ff2c5aa9</color>
+</resources>
+

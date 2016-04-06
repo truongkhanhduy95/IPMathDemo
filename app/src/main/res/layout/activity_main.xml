@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="0dp"
+    android:minWidth="0dp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.truongkhanhduy.ipmathdemo.MainActivity"
+    android:background="#28384b">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center|bottom"
+        android:weightSum="1"
+        android:background="@color/backGround">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="0.57">
+
+            <ImageView
+                android:layout_width="93dp"
+                android:layout_height="93dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/logo128" />
+
+            <ImageView
+                android:layout_width="233dp"
+                android:layout_height="115dp"
+                android:id="@+id/imageView2"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ipmath" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Networking calculator"
+            android:id="@+id/textView29"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="#35485c" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Designed by Nobita"
+            android:id="@+id/textView28"
+            android:textColor="#35485c"
+            android:layout_weight="0.16"
+            android:textStyle="italic"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_weight="0.13">
+
+            <ImageButton
+                android:minHeight="0dp" android:minWidth="0dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="IP info"
+                android:id="@+id/btnIPInfo"
+                android:background="@color/ipinfo_theme"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:layout_margin="15px"
+                android:src="@drawable/info" />
+
+            <ImageButton
+                android:minHeight="0dp" android:minWidth="0dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btnSubnet"
+                android:background="@color/subnet_theme"
+                android:textColor="#ffffff"
+                android:src="@drawable/subnet"
+                android:layout_margin="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_weight="0.13">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="IPv6"
+                android:id="@+id/btnConvert"
+                android:background="@color/ipv6_theme"
+                android:textColor="#ffffff"
+                android:layout_margin="15px"
+                android:src="@drawable/ipv6"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Camera"
+                android:id="@+id/btnCamera"
+                android:background="@color/camera_theme"
+                android:textColor="#ffffff"
+                android:layout_margin="15px"
+                android:src="@drawable/live"
+                android:scaleType="center" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
